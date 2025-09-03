@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "skillormeter"
+version = "0.1.0"
+description = "test ideas about measuring skills"
+authors = ["pavel sumetc <pavel.sumetc@fuel50.com>"]
+readme = "README.md"
+packages = [{include = "src", from = "."}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.3.27"
+langchain-aws = "^0.2.31"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
